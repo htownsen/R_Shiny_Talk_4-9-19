@@ -1,9 +1,8 @@
 
 # Load the libraries needed
 library(shiny)
-library(ggplot2)
-library(magrittr)
-library(tidyr)
+library(ggplot2) # for diamonds dataset and plotting
+library(dplyr) # for filtering
 
 # We will use the diamonds dataset built into the ggplot2 library. 
 # Additional data preparation here
